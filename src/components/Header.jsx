@@ -20,7 +20,7 @@ useEffect(()=>{
 },[wishlist,cart])
   return (
     <div>
-      <Navbar expand="lg" className="bg-primary position-fixed top-0 w-100" style={{zIndex:1}}>
+      <Navbar expand="lg" className="bg-dark position-fixed top-0 w-100" style={{zIndex:1,height:"60px"}}>
       <Container>
         <Navbar.Brand> <Link to={'/'} style={{color:"white",fontWeight:"bold",textDecoration:"none"}}><i class='fa-solid fa-truck-fast'></i> E-Cart </Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

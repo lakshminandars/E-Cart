@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer className="bg-primary text-light py-4">
+    <footer className="bg-dark text-light py-4">
       <style>
         {
           `

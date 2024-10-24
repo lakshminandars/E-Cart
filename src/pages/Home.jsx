@@ -56,8 +56,8 @@ function Home() {
               products.map((product, index) => (
                 <Col key={index} sm={12} md={6} lg={4} xl={3} className="d-flex justify-content-center mb-4">
                   <Card
-                    style={{ width: '18rem', height: '520px', cursor: 'pointer', transition: 'transform 0.3s', marginTop: "30px", marginBottom: "30px" }}
-                    className="shadow-lg border-0 custom-card mt-5 p-5"
+                    style={{ width: '18rem', height: '520px', cursor: 'pointer', transition: 'transform 0.3s', marginTop: "30px", marginTop: "80px" }}
+                    className="shadow-lg border-0 custom-card  p-5"
                   // onMouseEnter={(e) => e.currentTarget.style.transform = "scale(1.05)"}
                   // onMouseLeave={(e) => e.currentTarget.style.transform = "scale(1.0)"}
                   >

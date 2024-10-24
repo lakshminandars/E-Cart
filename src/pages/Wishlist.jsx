@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { removeFromWishlist } from '../Redux/slice/wishListSlice';
 import { addToCart } from '../Redux/slice/cartSlice';
+import emptywishlistIcon from '../assets/empty-cart.png'
 
 
 function Whishlist() {
@@ -40,9 +41,15 @@ function Whishlist() {
               </Card.Body>
             </Card>
           </Col>
-          )): <div className='d-flex align-items-center mt-5'>
-            <img width={'600px'} className='mt-5' src="https://krosfitsports.com/public/empty-cart.gif" alt="" />
-             <h1 className='text-danger fw-bolder mt-5'>Your Wishlist Is Empty....</h1>
+          )): <div className='d-flex align-items-center mt-5 row d-flex flex-row'>
+            <div className="col-lg-6">
+            <img width={'100%'} className='mt-5 ms-5' src={emptywishlistIcon} alt="" />
+
+            </div>
+            <div className="col-lg-6">
+            <h1 className='text-danger fw-bolder mt-5 ms-5'>Your Wishlist Is Empty....</h1>
+
+            </div>
           </div>
           
           
