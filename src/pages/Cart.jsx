@@ -79,7 +79,7 @@ function Cart() {
             <img width={'100%'} className='mt-5 ms-5' src={emptycartIcon} alt="" />
             </div>
             <div className="col-lg-6">
-            <h1 className='text-danger fw-bolder mt-5 ms-5'>Your Wishlist Is Empty....</h1>
+            <h1 className='text-danger fw-bolder mt-5 ms-5'>Your Cart Is Empty....</h1>
 
             </div>
           </div>
